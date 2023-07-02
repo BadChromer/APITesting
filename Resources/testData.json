@@ -1,0 +1,23 @@
+{
+  "getAllPosts": {
+    "orderParameter": "Id"
+  },
+  "getPostWithId": {
+    "expectedPostUserId": 10,
+    "expectedPostId": 99,
+    "existingPost": "99"
+  },
+  "getPostNotFoundError": {
+    "notExistingPost": "150",
+    "emptyBody": "{}"
+  },
+  "createPost": {
+    "userIdToCreate": 1,
+    "idToCreate": 101
+  },
+  "getUserWithId": {
+    "existingUser": "5"
+  },
+  "lengthOfRandomlyGeneratedString": 10,
+  "expectedContentType": "application/json"
+}
